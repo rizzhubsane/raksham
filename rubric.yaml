@@ -1,0 +1,44 @@
+# Placeholder pitch-deck rubric. Weights must sum to 1.0.
+# Edit the descriptions and scoring bands before a real review cycle.
+criteria:
+  - name: Problem clarity
+    description: >
+      The deck states a specific problem, who has it, and why it matters now.
+    weight: "0.20"
+    scoring_guide:
+      "0-3": "No clear problem, or only a slogan without an audience or constraint."
+      "4-6": "A problem is stated, but the audience, stakes, or evidence are thin."
+      "7-10": "The problem is specific, evidenced, and scoped to a real audience."
+  - name: Solution and innovation
+    description: >
+      The deck explains the solution, what is new about it, and why it addresses the problem.
+    weight: "0.25"
+    scoring_guide:
+      "0-3": "The solution is missing, generic, or disconnected from the problem."
+      "4-6": "A solution is described, but the novelty or the link to the problem is weak."
+      "7-10": "The solution is concrete, differentiated, and clearly aimed at the stated problem."
+  - name: Market and impact
+    description: >
+      The deck identifies who benefits, the scale of the opportunity, and the change the team expects.
+    weight: "0.20"
+    scoring_guide:
+      "0-3": "No audience, market, or impact is identified."
+      "4-6": "An audience or impact is named, but size, reach, or evidence is vague."
+      "7-10": "The audience, opportunity, and expected impact are specific and supported."
+  - name: Feasibility and execution plan
+    description: >
+      The deck shows how the team will build, deliver, and sustain the work with a credible plan.
+    weight: "0.20"
+    scoring_guide:
+      "0-3": "No plan, timeline, resources, or delivery path."
+      "4-6": "A plan exists, but milestones, resources, or risks are incomplete."
+      "7-10": "The plan has concrete steps, owners or resources, and a credible path to delivery."
+  - name: Presentation quality
+    description: >
+      The deck is easy to follow. Visual polish alone does not raise this score;
+      structure, labeling, and whether the slides support the argument do.
+    weight: "0.15"
+    scoring_guide:
+      "0-3": "The deck is disorganized, unlabeled, or too thin to follow the argument."
+      "4-6": "The story is partly followable, with gaps in structure or slide support."
+      "7-10": "The narrative is ordered, slides support the claims, and the deck can be judged without guesswork."

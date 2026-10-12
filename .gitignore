@@ -1,0 +1,9 @@
+.cache/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.pyc
+*.tmp
+results.csv
+local_run/
